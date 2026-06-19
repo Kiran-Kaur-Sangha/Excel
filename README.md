@@ -1,4 +1,4 @@
-# Week 1 Excel Poject
+# Excel Poject
 # 📊 Excel Data Analysis Portfolio Project
 
 ## Overview
