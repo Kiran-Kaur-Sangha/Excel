@@ -1,163 +1,56 @@
-# Excel Poject
-# 📊 Excel Data Analysis Portfolio Project
+# 🚴 Global Retail & E-Commerce Performance Analysis (Excel)
 
-## Overview
+## 📌 Project Background & Context
+**Role:** Associate Data Analyst (Data Technician Bootcamp Client Project)  
+**Stakeholder Audience:** Regional Sales Directors  
 
-As part of my Data Technician Bootcamp, I completed a hands-on Excel project focused on analysing retail sales and bike sales datasets to uncover trends, evaluate performance, and communicate findings through data visualisation.
-
-Rather than treating Excel as simply a spreadsheet tool, this project focused on using data to answer business questions, identify patterns, and transform raw information into meaningful insights.
-
----
-
-## 🎯 Project Objectives
-
-* Analyse retail sales transactions using Excel
-* Explore customer demographics and purchasing behaviour
-* Create business summaries using Pivot Tables
-* Apply formulas and functions to automate calculations
-* Build visualisations to support data-driven decision making
-* Compare different chart types to determine the most effective way to communicate insights
+**Context:** 
+As part of my intensive Data Technician Bootcamp, I took on the role of a data consultant to complete a hands-on performance audit for a global consumer retail brand specializing in outdoor equipment and athletic goods. Moving beyond basic spreadsheet management, this project required using advanced Excel architectures to analyze transactional and demographic records across key international markets (United States, Germany, Australia) to identify revenue trends and optimize reporting efficiency.
 
 ---
 
-## 🛠 Excel Skills Demonstrated
+## 📑 Executive Summary
+An analysis of global sales transactions reveals that the **United States** stands as the primary revenue engine, dominating volume across all major product lines. Demographically, **consumers aged 35–64 in Germany** and **female shoppers globally** represent the highest-converting segments with the strongest average order values. Conversely, a severe profitability deficit was identified within the **Australian male customer group**, underperforming expectations compared to global cohorts. 
 
-### Data Preparation & Exploration
-
-* Sorting and filtering datasets to identify trends
-* Restoring original dataset order using transaction identifiers
-* Reviewing large datasets for analysis readiness
-* Working with structured retail sales and bike sales data
-
-### Formulas & Functions
-
-Used a range of Excel functions including:
-
-```excel
-SUM()
-SUMIF()
-AVERAGE()
-DATE()
-MONTH()
-YEAR()
-VLOOKUP()
-SWITCH()
-```
-
-These functions were used to:
-
-* Calculate total and average commissions
-* Categorise sales performance
-* Extract and analyse date-based trends
-* Perform data lookups across datasets
-* Automate repetitive calculations
-* Generate business metrics for reporting
+Through this analysis, I delivered automated reporting frameworks designed to help teams capitalize on high-performing European demographics and investigate margin compression in underperforming regional segments.
 
 ---
 
-## 📈 Pivot Table Analysis
+## 🛠️ Technical Workflow & Practical Applications
+During my bootcamp training, I applied industry-standard workflows to clean, model, and visualize real-world business data:
 
-Created Pivot Tables to summarise and analyse data from multiple perspectives.
+### 1. Data Hygiene & Engineering
+*   **Transaction Integrity:** Implemented transaction-identifier tracking to ensure zero data loss during multi-stage sorting, cleaning, and filtering phases.
+*   **Database Lookups:** Utilized data-matching functions (`VLOOKUP`) to link demographic tables to transactional fact tables, establishing a clean relational dataset.
 
-<img width="673" height="263" alt="image" src="https://github.com/user-attachments/assets/2b8edbe1-21d4-413f-9670-d03cf9544b48" />
+### 2. Automated Business Logic
+To simulate a real reporting environment, I built conditional logical frameworks directly into the data model to automate how SKU velocity is classified:
+*   **High Velocity:** Sales Volume > 600 units
+*   **Medium Velocity:** Sales Volume 300–600 units
+*   **Low Velocity:** Sales Volume < 300 units
 
+*Formula Architecture Applied:* 
+`=SWITCH(TRUE(), Volume_Cell>600, "High", Volume_Cell>=300, "Medium", "Low")`
 
-### Retail Sales Dataset
-
-Analysed:
-
-* Product category performance
-* Sales volumes
-* Customer demographics
-* Commission trends
-* Transaction activity
-  
-<img width="409" height="307" alt="image" src="https://github.com/user-attachments/assets/11638b38-e1d6-4751-a401-067ff1d8df2d" />
-
-
-### Bike Sales Dataset
-
-Used Pivot Tables to investigate:
-
-* Customer age groups
-* Country-level sales performance
-* Gender purchasing trends
-* Profitability by market
-
-<img width="541" height="333" alt="image" src="https://github.com/user-attachments/assets/bf77133c-57dd-44f5-a867-268b8d73ce57" />
-
-
-### Key Findings
-
-🔹 Customers aged **35–64** represented a significant customer segment within Germany.
-
-🔹 The **United States** emerged as the strongest-performing market across multiple categories.
-
-🔹 Female customers generated a large proportion of sales activity within the analysed dataset.
-
-🔹 Australian male customer groups showed comparatively lower profitability than other regions analysed.
+### 3. Metric Aggregation & Reporting
+Constructed multi-perspective Pivot Tables to isolate core performance indicators:
+*   **Financial Performance:** Segmented revenue distribution, total commissions, and regional profitability.
+*   **Demographic Mapping:** Cross-tabulated transaction frequency against customer age brackets and gender splits to isolate core market profiles.
 
 ---
 
-## 🔄 Business Logic with SWITCH
+## 📊 Insight Deep Dive & Visualization Strategy
 
-Applied the `SWITCH()` function to categorise products based on sales volume:
+### 📈 Core Findings:
+*   **The German Expansion Opportunity:** The 35–64 age bracket in Germany represents an outsized share of regional profits, indicating a highly mature, stable target demographic.
+*   **The Australian Profitability Deficit:** While transaction volume for Australian male customers remained steady, overall profitability was disproportionately low, pointing to structural margin issues (high shipping costs, deeper discounting, or unfavorable product mix).
 
-| Sales Volume | Category |
-| ------------ | -------- |
-| > 600        | High     |
-| 300–600      | Medium   |
-| < 300        | Low      |
-
-This exercise introduced conditional business rules and demonstrated how Excel can automate classification tasks commonly used in reporting environments.
+### 🎨 Dashboard & Design Philosophy
+To ensure maximum readability for stakeholders, I intentionally moved away from static, multi-colored charts (such as pie charts). Shifting trends across age distributions were mapped via continuous **Line Charts** and **Area Graphs**, which allow regional directors to instantly compare trajectory changes across fiscal periods without visual clutter.
 
 ---
 
-## 📊 Data Visualisation
-
-Built and compared multiple chart types to communicate findings effectively.
-
-Visualisations included:
-
-* Revenue by age group
-* Product revenue by country
-* Profitability comparisons
-* Market performance summaries
-
-Part of the project involved evaluating which visualisations best communicated the data. Through this analysis, line charts proved more effective than pie charts for identifying revenue trends across age groups because they allowed comparisons to be made more clearly.
-
----
-
-## 💡 What I Learned
-
-This project strengthened my understanding of how Excel is used within real business environments for:
-
-* Data cleaning
-* Data exploration
-* Reporting
-* Trend analysis
-* Performance monitoring
-* Business intelligence
-
-One lesson that stood out was that effective analysis starts with asking the right questions. Whether reviewing retail transactions or bike sales performance, the goal wasn't simply to calculate numbers—it was to understand the story behind them and present insights that support better decision-making.
-
----
-
-## 🚀 Tools Used
-
-* Microsoft Excel
-* Pivot Tables
-* Pivot Charts
-* Filtering & Sorting
-* Data Visualisation
-* Business Reporting
-* Formula Development
-* Sales Data Analysis
-* Customer Demographic Analysis
-* Data Technician Bootcamp Projects
-
----
-
-### Repository Focus
-
-*"Using Excel to move beyond spreadsheets and uncover the story hidden within the data."*
+## 🚀 Environment & Tooling
+*   **Analytics Platform:** Microsoft Excel
+*   **Key Toolkit:** Pivot Tables, Pivot Charts, Dynamic Arrays, Conditional Logical Modeling (`SWITCH`), Demographic Matrix Segmentation
+*   **Training Foundation:** Data Technician Bootcamp
