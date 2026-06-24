@@ -5,14 +5,14 @@
 **Stakeholder Audience:** Regional Sales Directors  
 
 **Context:** 
-As part of my intensive Data Technician Bootcamp, I took on the role of a data consultant to complete a hands-on performance audit for a global consumer retail brand specializing in outdoor equipment and athletic goods. Moving beyond basic spreadsheet management, this project required using advanced Excel architectures to analyze transactional and demographic records across key international markets (United States, Germany, Australia) to identify revenue trends and optimize reporting efficiency.
+As part of my intensive Data Analyst Bootcamp, I took on the role of a data consultant to complete a hands-on performance audit for a global consumer retail brand specializing in outdoor equipment and athletic goods. Moving beyond basic spreadsheet management, this project required using advanced Excel architectures to analyze transactional and demographic records across key international markets (United States, Germany, Australia) to identify revenue trends and optimize reporting efficiency.
 
 ---
 
 ## 📑 Executive Summary
 An analysis of global sales transactions reveals that the **United States** stands as the primary revenue engine, dominating volume across all major product lines. Demographically, **consumers aged 35–64 in Germany** and **female shoppers globally** represent the highest-converting segments with the strongest average order values. Conversely, a severe profitability deficit was identified within the **Australian male customer group**, underperforming expectations compared to global cohorts. 
 
-Through this analysis, I delivered automated reporting frameworks designed to help teams capitalize on high-performing European demographics and investigate margin compression in underperforming regional segments.
+Through this analysis,the delivery of automated reporting frameworks can be designed to help teams capitalize on high-performing European demographics and investigate margin compression in underperforming regional segments.
 
 ---
 
